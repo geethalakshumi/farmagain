@@ -96,3 +96,23 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+.rotate {
+  animation: rotation 2s;
+}
+
+.linear {
+  animation-timing-function: linear;
+}
+
+.infinite {
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
