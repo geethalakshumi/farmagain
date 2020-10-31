@@ -159,7 +159,7 @@ class App extends React.Component {
         isload:false
       })
       this.getstate()
-    }, 15000);
+    }, 20000);
   }
 
 motor1=(e)=>{
